@@ -1,0 +1,514 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+}  
+a{ 
+    text-decoration: none
+}   
+em{
+    display: block; 
+    font-size: 1.4rem;
+}
+span { 
+    color: #007bff; 
+    cursor: pointer;
+} 
+i{ 
+    color: #357
+}
+
+@import url("https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900"); 
+
+body { 
+    font-family: "Raleway",sans-serif; 
+}  
+html { 
+    width: 100%; 
+    font-size: 15px; 
+    scroll-behavior: smooth;
+} 
+/* start header */ 
+.page-1 {  
+    width: 100%; 
+    height: 100vh;
+    background-color: #222;
+    background-image: url(../img/infinite-loop-01.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    min-height: 375px;
+    position: relative;
+}  
+.header {  
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    position: sticky; 
+    top: 0;  
+    margin-right: 6rem;
+
+}  
+.page-1 .header .infinite{ 
+    margin: 1.5rem; 
+    color: white ; 
+    font-size: 1.5rem; 
+    transition: all ease 0.4s; 
+    position: sticky; 
+    top: 0;  
+    margin-left: 7rem;
+
+}  
+.page-1 .header .infinite:hover{ 
+    color: #357;
+}
+.page-1 .header ul{  
+    display: flex;  
+    justify-content: space-between;  
+    align-items: center;
+    gap: 4.3rem; 
+    margin-right: 3rem; 
+    font-size: 1.3rem; 
+}   
+.page-1 .header .nav-item{  
+    list-style-type: none; 
+    color: white;  
+    transition: all ease 0.4s;
+} 
+.page-1 .header .nav-item:hover{ 
+    background-color: #357; 
+    padding: 1.5rem;
+} 
+.subject { 
+    color: white;   
+    position: absolute; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;   
+    gap: 1.3rem;
+    width: 98%; 
+    height: 59%; 
+} 
+.subject .sub-infinite { 
+    font-size: 4rem;
+} 
+.subject p{ 
+    font-size: 1.5rem;
+}   
+.lower {  
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    margin-top: 30rem; 
+}
+.lower i{ 
+    color: white; 
+    font-size: 3rem; 
+
+}  
+.lower a{
+    background-color: #357;
+    width: 7.5rem;
+    height: 5.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition:all ease 0.5s ;   
+} 
+.lower a:hover{
+    transform: scale(120%);   
+    background-color: #007bff;
+
+}
+/* start page2 */  
+.page-2 { 
+    margin-bottom: 5rem;
+}
+.page-2 .top { 
+    display: flex; 
+    flex-direction: column;  
+    justify-content: space-between;
+    align-items:space-between ;  
+    gap: 1.3rem;
+    margin-left: 6rem; 
+    margin-top: 3.2rem;
+} 
+.page-2 .top .do{ 
+    color: #007bff;  
+    font-family: inherit;
+    font-size: 2.5rem; 
+    margin: 3rem 0 0 2rem;
+} 
+.page-2 .top .do-text{ 
+    color: #707070; 
+    font-size: 1.5rem; 
+    margin: 1rem 0 0 2rem;
+} 
+.page-2 .top .do-text a { 
+    color: #007bff; 
+    opacity: 50%;
+} 
+.page-2 .main{  
+    margin-top: 4rem; 
+    margin-left: 8rem;
+    display: flex;  
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+    align-items: space-between;  
+    gap: 1rem;  
+    width: 85%;
+} 
+.page-2 > .main > .market-div{ 
+    width: 40%; 
+    position: relative; 
+}  
+.page-2 > .main > .market-div:first-child{ 
+    font-size: x-large;
+}
+.page-2 > .main > .market-div > .market{ 
+    color: #007bff;  
+    margin-bottom: 2rem; 
+    gap: 3rem;
+}  
+.page-2 .main .market-div #market-bold{ 
+    font-size: xx-large;  
+    gap: 3rem; 
+    display: inline-block; 
+    margin-left: 2rem;
+}
+.page-2 > .main > .market-div > .market-text{ 
+    color: #707070; 
+    font-size: 1.4rem;  
+    margin-left: 3rem; 
+    margin-bottom: 2rem;
+} 
+.page-2 button{
+    width: 10rem;
+    height: 4rem;
+    line-height: 4rem;
+    background-color: #357;
+    cursor: pointer;
+    color: azure;
+    font-size: large;
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    transition: all ease 0.5s;
+}  
+.page-2 button:hover{ 
+    transform: scale(120%);   
+    background-color: #007bff;
+}
+#button  { 
+    margin-top: 3.2rem;
+}
+/* page3 */  
+.page-3 { 
+    background-image: url(../img/infinite-loop-02.jpg);  
+    background-size: cover; 
+    background-repeat: no-repeat; 
+}
+.page-3 .testimonials { 
+    display: flex;  
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    margin-bottom: 10rem;
+} 
+.page-3 .testimonials .test-text{ 
+    color: white; 
+    font-size: 2.5rem; 
+    margin-top: 2rem;
+} 
+.page-3 .testimonials .test-text-2 { 
+    color: white; 
+    margin-top: 2.5rem; 
+    font-size: 1.2rem;
+} 
+.page-3 .testimonials .test-text-3{ 
+    color: white; 
+    font-size: 1.2rem;
+} 
+.page-3 .personalitize{ 
+    display: flex;  
+    align-items: space-around; 
+    justify-content: space-evenly;  
+    flex-wrap: wrap;
+    margin-top: 5rem; 
+    margin-left: 5rem; 
+}  
+.page-3 .personalitize .personalitize-2 { 
+    width: 18%; 
+    display: flex ; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    color: aliceblue; 
+    gap: 2rem;  
+    margin-bottom: 15rem; 
+    font-size: 1.1rem;
+} 
+figcaption { 
+    text-align: right;
+}
+.page-3 .personalitize img{
+    border-radius: 50%;
+}
+
+
+/* gallery property */ 
+
+.page-4 .gallery { 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center;  
+    gap: 1rem; 
+    margin-top: 7rem;
+
+} 
+.page-4 .gallery .gallery-text-1 {
+    font-size: 3rem; 
+    margin-top: 2rem; 
+    color: #007bff; 
+} 
+.page-4 .gallery .gallery-text-2{ 
+    font-size: 1.2rem; 
+    color: #707070; 
+    margin-top: 2rem;
+} 
+.page-4 .gallery .gallery-text-3 { 
+    font-size: 1.2rem; 
+    color: #707070;  
+    margin-bottom: 5rem;
+} 
+.page-4 .img { 
+    display: flex; 
+    justify-content: center; 
+    align-items: space-between ; 
+    flex-wrap: wrap; 
+    gap: 2rem; 
+    margin-bottom: 10rem; 
+} 
+.page-4 .img-list{ 
+    width: 15%;
+}
+/* page5property */  
+.page-5 {  
+    background-color: #001828;
+    background-image:url(../img/infinite-loop-03.jpg); 
+    background-repeat: no-repeat; 
+ 
+} 
+
+.page-5 .contact { 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    padding-top: 6rem;
+     margin-bottom: 5rem;
+}  
+.page-5 .contact .contact-us{ 
+    font-size: 3rem; 
+    margin-top: 3rem; 
+    color: white;
+}    
+.page-5 .flex-page-5 { 
+    display: flex; 
+    justify-content: space-evenly; 
+    align-items: space-evenly; 
+    flex-wrap: wrap;  
+    gap: 2rem;
+} 
+.page-5 .flex-page-5 .form { 
+    width: 35%;
+} 
+.page-5 .flex-page-5 .contact-list{ 
+    width: 40%;
+}  
+.page-5 .flex-page-5 .contact-list >#contect-item :hover{ 
+    color: #007bff; 
+    
+} 
+
+
+.page-5 .contact .contact-list-1{ 
+    margin-top: 2rem; 
+    font-size: 1.2rem; 
+    color: white;
+} 
+.page-5 .contact .contact-list-2{ 
+    font-size: 1.2rem; 
+    color: white; 
+    margin-top: 1rem;
+}  
+.page-5 .form{
+    width: 40%;
+}
+.page-5 .form >form{ 
+    width: 100%;
+    display: flex; 
+    flex-direction: column; 
+    align-items: start; 
+    justify-content: flex-start; 
+    width: 100%; 
+    margin-top: 2rem; 
+    gap: 1rem;
+} 
+.page-5 .form >form .text{  
+    padding-left: 1rem;
+    background: transparent;   
+    color: white; 
+    border: 0.15rem solid white; 
+    border-radius: 0.3rem; 
+    width: 100%; 
+    height: 3rem; 
+
+} 
+.page-5 .form >form .email{ 
+    padding-left: 1rem; 
+    background: transparent; 
+    color: white; 
+    border: 0.15rem solid white; 
+    border-radius: 0.3rem; 
+    width: 30rem; 
+    height: 3rem;  
+    width: 100%;
+
+} 
+.page-5 .form >form .message{  
+    padding-left: 1rem; 
+    background: transparent; 
+    color: white; 
+    border: 0.15rem solid white; 
+    border-radius: 0.3rem;  
+    width: 100%;
+
+
+} 
+.page-5 .form >form .submit {
+    background-color: #357;
+    color: white;
+    width: 16rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    margin-top: 2rem;
+    transition: all ease 0.5s;    
+    
+}  
+.page-5 .form >form .submit:hover{ 
+    transform: scale(120%);   
+    background-color: #007bff;
+}
+.page-5 .contact-list { 
+    display: flex; 
+    flex-direction: column; 
+    align-items: start; 
+    justify-content: flex-start;   
+    width:60%; 
+    text-align: left;  
+    padding: 4rem 5rem 5rem 8rem; 
+    gap: 3rem; 
+    
+} 
+.page-5 .contact-list i{ 
+    color: white; 
+    font-size: 3rem;
+} 
+.page-5 .contact-list a{ 
+    color: white ; 
+    font-size: 2rem;
+}  
+#chat { 
+    color: antiquewhite; 
+    margin-left: 2rem;
+} 
+footer{  
+    margin-top: 5rem; 
+    text-align: center; 
+    color: aliceblue;
+}
+
+@media screen and (max-width:900px){  
+    html , body { 
+        font-size: 13px;
+    } 
+}  
+@media screen and (max-width:800px){ 
+html , body { 
+    font-size: 10px;
+} 
+
+.page-5 .contact-list i {  
+    font-size: 3rem;
+
+}  
+.page-5 .contact-list a{ 
+    font-size: 2rem;
+} 
+.page-5 .contact-list span{ 
+    font-size: 1.9rem; 
+    margin-left: 0.2rem;
+} 
+.page-1 .lower { 
+    margin-top: 40rem;
+}
+
+}  
+@media screen and (max-width:1150px){  
+    html , body { 
+        font-size: 12px;
+    }    
+    .page-5 .contact-list span{ 
+        font-size: 1.5rem; 
+        margin-left: 0.2rem;
+    }   
+    
+} 
+@media screen and (max-width:900px){ 
+    html , body { 
+        font-size: 10px;
+    }    
+    .page-5 .contact-list span{ 
+        font-size: 1.2rem; 
+        margin-left: 0.2rem;
+    }    
+
+} 
+@media screen and (max-width:700px){ 
+    html , body { 
+        font-size: 7px;
+    }    
+    .page-5 .contact-list span{ 
+        font-size: 105rem; 
+        margin-left: 0.2rem;
+    }    
+
+}
+@media screen and (max-width:600px){  
+    html , body { 
+        font-size:6px;
+    }  
+    
+    .page-1 .lower { 
+        margin-top: 40rem;
+    }   
+    .page-5 .contact-list span{ 
+        font-size: 1.5rem; 
+        margin-left: 0.2rem;
+    }  
+
+} 
+@media screen and (max-width:400px){ 
+    html , body { 
+        font-size: 6px;
+    } 
+
+}
+
+
+
+
+
